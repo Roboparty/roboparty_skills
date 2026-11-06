@@ -1,0 +1,334 @@
+{
+  "revision": "local",
+  "generated": "roboparty-skills",
+  "count": 42,
+  "skills": [
+    {
+      "name": "rpo-introduction",
+      "category": "入门指引",
+      "description": "Orient a new user to RoboParty Roboto Origin: what the open-source humanoid is, how the docs are organized, and the required reading order.",
+      "triggers": "基本介绍,阅读须知,是什么,入门,先看什么,Roboto Origin,萝博头",
+      "install": "gh repo clone Roboparty/roboparty-skills, then copy skills/rpo-introduction/ into the client skills dir (~/.claude/skills, ~/.codex/skills or ~/.cursor/skills)",
+      "url": "https://roboparty.feishu.cn/wiki/IyKNwwGcCiyjEckV9QucEuHcn10"
+    },
+    {
+      "name": "rpo-safety-guide",
+      "category": "安全规范",
+      "description": "Apply the Roboto Origin safety operation guide: power-on/off sequence, emergency stop, safe debugging, and the protective harness requirement.",
+      "triggers": "安全,急停,开机,关机,安全操作,注意事项,吊架,防摔",
+      "install": "gh repo clone Roboparty/roboparty-skills, then copy skills/rpo-safety-guide/ into the client skills dir (~/.claude/skills, ~/.codex/skills or ~/.cursor/skills)",
+      "url": "https://roboparty.feishu.cn/wiki/ZGtnwpHCjii2XykBYMGchoBBnSl"
+    },
+    {
+      "name": "rpo-burn-flash",
+      "category": "烧录与固件",
+      "description": "Flash the RDK X5 main controller image for Roboto Origin, then perform zero-point calibration and first startup.",
+      "triggers": "烧录,刷机,RDK X5,镜像,SD卡,启动,零点,开机烧录",
+      "install": "gh repo clone Roboparty/roboparty-skills, then copy skills/rpo-burn-flash/ into the client skills dir (~/.claude/skills, ~/.codex/skills or ~/.cursor/skills)",
+      "url": "https://roboparty.feishu.cn/wiki/GvUhwFZMoi1GYqk1NvMcglJInFc"
+    },
+    {
+      "name": "rpo-stm32-firmware",
+      "category": "烧录与固件",
+      "description": "Flash the USB-to-CANFD board firmware using STM32CubeProg.",
+      "triggers": "STM32CubeProg,USB转CANFD,固件烧录,canfd板,刷固件",
+      "install": "gh repo clone Roboparty/roboparty-skills, then copy skills/rpo-stm32-firmware/ into the client skills dir (~/.claude/skills, ~/.codex/skills or ~/.cursor/skills)",
+      "url": "https://roboparty.feishu.cn/wiki/CmfmwUccailGsYkrdoYchaCinIc"
+    },
+    {
+      "name": "rpo-zero-calibration",
+      "category": "装配与标定",
+      "description": "Perform joint zero-point / cylindrical-pin calibration on Roboto Origin.",
+      "triggers": "零点标定,圆柱销,标定,关节零点,校准,原点",
+      "install": "gh repo clone Roboparty/roboparty-skills, then copy skills/rpo-zero-calibration/ into the client skills dir (~/.claude/skills, ~/.codex/skills or ~/.cursor/skills)",
+      "url": "https://roboparty.feishu.cn/wiki/MCq4wT3pIi5LG8kPAJLcBtBOnio"
+    },
+    {
+      "name": "rpo-wiring",
+      "category": "装配与标定",
+      "description": "Follow the official Roboto Origin wiring instructions for power and signal cables.",
+      "triggers": "走线,接线,线缆,线束,怎么接线,布线",
+      "install": "gh repo clone Roboparty/roboparty-skills, then copy skills/rpo-wiring/ into the client skills dir (~/.claude/skills, ~/.codex/skills or ~/.cursor/skills)",
+      "url": "https://roboparty.feishu.cn/wiki/QeY2wozbiiIivlkBfdccvqVlnog"
+    },
+    {
+      "name": "rpo-hardware-electrical",
+      "category": "硬件与电气",
+      "description": "Understand Roboto Origin hardware and electrical architecture, including the tri-in-one circuit board.",
+      "triggers": "硬件,电气,电路,三合一,原理图,供电,电压,接口",
+      "install": "gh repo clone Roboparty/roboparty-skills, then copy skills/rpo-hardware-electrical/ into the client skills dir (~/.claude/skills, ~/.codex/skills or ~/.cursor/skills)",
+      "url": "https://roboparty.feishu.cn/wiki/B2gXwTEPJi3i2IkpQesczpKvn8f"
+    },
+    {
+      "name": "rpo-motor-debug",
+      "category": "硬件与电气",
+      "description": "Step-by-step bring-up and debugging of Daomiao (达妙) motors on Roboto Origin, including MIT mode parameters.",
+      "triggers": "达妙,电机调试,电机不转,MIT,kp,kd,电机报错,保姆级",
+      "install": "gh repo clone Roboparty/roboparty-skills, then copy skills/rpo-motor-debug/ into the client skills dir (~/.claude/skills, ~/.codex/skills or ~/.cursor/skills)",
+      "url": "https://roboparty.feishu.cn/wiki/MXlGwSZH5iYGrnkU5JTcVKU3nFd"
+    },
+    {
+      "name": "rpo-assembly",
+      "category": "装配与标定",
+      "description": "Assemble Roboto Origin from the kit and run the calibration steps; index page for assembly and calibration.",
+      "triggers": "装配,组装,安装,装配与标定,怎么装,散件组装",
+      "install": "gh repo clone Roboparty/roboparty-skills, then copy skills/rpo-assembly/ into the client skills dir (~/.claude/skills, ~/.codex/skills or ~/.cursor/skills)",
+      "url": "https://roboparty.feishu.cn/wiki/BYKEwfRRNicab6klpVjcmzyfnxh"
+    },
+    {
+      "name": "rpo-embedded-software",
+      "category": "嵌入式软件",
+      "description": "Navigate the Roboto Origin embedded-software layer: firmware, main controller, and communication software.",
+      "triggers": "嵌入式,固件,主控软件,通信软件,嵌软,底层软件",
+      "install": "gh repo clone Roboparty/roboparty-skills, then copy skills/rpo-embedded-software/ into the client skills dir (~/.claude/skills, ~/.codex/skills or ~/.cursor/skills)",
+      "url": "https://roboparty.feishu.cn/wiki/SyuQwrapYiy61rkcrs3cZpL9nTe"
+    },
+    {
+      "name": "rpo-motion-control",
+      "category": "算法与软件",
+      "description": "Apply Roboto Origin humanoid motion-control know-how: locomotion controller, control frequency, and debugging.",
+      "triggers": "运动控制,步态,locomotion,控制频率,运控,行走,200hz",
+      "install": "gh repo clone Roboparty/roboparty-skills, then copy skills/rpo-motion-control/ into the client skills dir (~/.claude/skills, ~/.codex/skills or ~/.cursor/skills)",
+      "url": "https://roboparty.feishu.cn/wiki/GvUxwKVeNiGa7kku6vEcvqfKn87"
+    },
+    {
+      "name": "rpo-rl-training",
+      "category": "算法与软件",
+      "description": "Train Roboto Origin locomotion policies: Isaac Lab environment, RSL-RL, Sim2Sim, and motion retargeting.",
+      "triggers": "强化学习,训练,IsaacLab,RSL-RL,Sim2Sim,策略训练,RL",
+      "install": "gh repo clone Roboparty/roboparty-skills, then copy skills/rpo-rl-training/ into the client skills dir (~/.claude/skills, ~/.codex/skills or ~/.cursor/skills)",
+      "url": "https://roboparty.feishu.cn/wiki/JlamwHVoUiRQ1IkWQXCc0JSInUf"
+    },
+    {
+      "name": "rpo-navigation",
+      "category": "算法与软件",
+      "description": "Use the Roboto Origin navigation package: 3D localization mixed with 2D navigation.",
+      "triggers": "导航,定位,nav2,建图,navigation,避障",
+      "install": "gh repo clone Roboparty/roboparty-skills, then copy skills/rpo-navigation/ into the client skills dir (~/.claude/skills, ~/.codex/skills or ~/.cursor/skills)",
+      "url": "https://roboparty.feishu.cn/wiki/SLV0wpyldiWzvfk9qquclhIBnih"
+    },
+    {
+      "name": "rpo-deploy-sdk",
+      "category": "部署与SDK",
+      "description": "Deploy on Roboto Origin and use the SDK: ROS2 drivers, inference, joystick control, Python SDK.",
+      "triggers": "部署,SDK,ROS2,驱动,推理,手柄,Python,deploy",
+      "install": "gh repo clone Roboparty/roboparty-skills, then copy skills/rpo-deploy-sdk/ into the client skills dir (~/.claude/skills, ~/.codex/skills or ~/.cursor/skills)",
+      "url": "https://roboparty.feishu.cn/wiki/KFVdwvpIxi3jdak7Pv6cP7XDnbg"
+    },
+    {
+      "name": "rpo-industrial-design",
+      "category": "硬件与电气",
+      "description": "Reference Roboto Origin industrial design: shell parts, appearance, and structure/shell separation.",
+      "triggers": "工业设计,外观,外壳,ID,造型,壳体",
+      "install": "gh repo clone Roboparty/roboparty-skills, then copy skills/rpo-industrial-design/ into the client skills dir (~/.claude/skills, ~/.codex/skills or ~/.cursor/skills)",
+      "url": "https://roboparty.feishu.cn/wiki/XOE2wBMW0iDDtHkPiPhcnb6anIb"
+    },
+    {
+      "name": "rpo-community-contributing",
+      "category": "开源与社区",
+      "description": "Follow RoboParty community guidelines and the contributing guide when publishing or contributing.",
+      "triggers": "社区规范,贡献指南,怎么贡献,发帖规范,community,contributing",
+      "install": "gh repo clone Roboparty/roboparty-skills, then copy skills/rpo-community-contributing/ into the client skills dir (~/.claude/skills, ~/.codex/skills or ~/.cursor/skills)",
+      "url": "https://roboparty.feishu.cn/wiki/YVnYwOgSPiHFAKkzZqHcmSCTnQe"
+    },
+    {
+      "name": "rpo-license",
+      "category": "开源与社区",
+      "description": "Explain the Roboto Origin open-source license and secondary development agreement V1.0.2.",
+      "triggers": "开源许可,许可证,二次开发协议,license,商用,协议",
+      "install": "gh repo clone Roboparty/roboparty-skills, then copy skills/rpo-license/ into the client skills dir (~/.claude/skills, ~/.codex/skills or ~/.cursor/skills)",
+      "url": "https://roboparty.feishu.cn/wiki/YHEgwrzY3ibb5Bk3CL6cD4eKnxg"
+    },
+    {
+      "name": "rpo-after-sales",
+      "category": "服务与支持",
+      "description": "Apply Roboto Origin warranty and after-sales policy, including repair process and contact.",
+      "triggers": "保修,售后,返修,维修,质保,after-sales",
+      "install": "gh repo clone Roboparty/roboparty-skills, then copy skills/rpo-after-sales/ into the client skills dir (~/.claude/skills, ~/.codex/skills or ~/.cursor/skills)"
+    },
+    {
+      "name": "rpo-qa",
+      "category": "服务与支持",
+      "description": "Answer frequently asked questions about Roboto Origin from the official QA.",
+      "triggers": "常见问题,QA,FAQ,经常问,常见qa",
+      "install": "gh repo clone Roboparty/roboparty-skills, then copy skills/rpo-qa/ into the client skills dir (~/.claude/skills, ~/.codex/skills or ~/.cursor/skills)",
+      "url": "https://roboparty.feishu.cn/wiki/CCvKwlkaziXcUJkKk7Pco3tknoc"
+    },
+    {
+      "name": "rpo-bom-parts",
+      "category": "硬件与电气",
+      "description": "Reference the Roboto Origin parts list (BOM) V1.1.3 for replication and spare parts.",
+      "triggers": "散件清单,BOM,零件清单,物料,备件,复刻清单",
+      "install": "gh repo clone Roboparty/roboparty-skills, then copy skills/rpo-bom-parts/ into the client skills dir (~/.claude/skills, ~/.codex/skills or ~/.cursor/skills)",
+      "url": "https://roboparty.feishu.cn/wiki/BpOgwSm0KicRUDkwEt5cvgPDnnh"
+    },
+    {
+      "name": "rp1-overview",
+      "category": "RP1 总览",
+      "description": "Orient to RP1, the full-size open-source humanoid: positioning, six-layer hardware architecture, RK3588 + real-time MCU, dual-bus power, and the Tech Report as the authoritative backbone.",
+      "triggers": "RP1,是什么,总览,技术报告,Tech Report,定位,规格",
+      "install": "gh repo clone Roboparty/roboparty-skills, then copy skills/rp1-overview/ into the client skills dir (~/.claude/skills, ~/.codex/skills or ~/.cursor/skills)"
+    },
+    {
+      "name": "rp1-hardware-architecture",
+      "category": "RP1 硬件电气",
+      "description": "Explain RP1 six-layer hardware architecture (sensing, HMI, main control, expansion, actuators, power) and the five isolated CAN-FD buses.",
+      "triggers": "硬件架构,六层,感知层,主控层,CANFD网段,5路,模块解耦,算力扩展",
+      "install": "gh repo clone Roboparty/roboparty-skills, then copy skills/rp1-hardware-architecture/ into the client skills dir (~/.claude/skills, ~/.codex/skills or ~/.cursor/skills)"
+    },
+    {
+      "name": "rp1-electrical-power",
+      "category": "RP1 硬件电气",
+      "description": "Apply RP1 power design: 48V main battery plus 30V hot-swap backup, staged power-up sequencing, and safe shutdown.",
+      "triggers": "48V,30V,备用电池,热插拔,上电时序,电源,配电,欠压",
+      "install": "gh repo clone Roboparty/roboparty-skills, then copy skills/rp1-electrical-power/ into the client skills dir (~/.claude/skills, ~/.codex/skills or ~/.cursor/skills)"
+    },
+    {
+      "name": "rp1-canfd-bus",
+      "category": "RP1 硬件电气",
+      "description": "Design/debug RP1 CAN-FD buses: topology, USB-to-CANFD via gs_usb/SocketCAN, Multi-TT hubs, and HPM5E00/HPM5E31 single-chip gateways.",
+      "triggers": "CANFD,USB转CANFD,gs_usb,SocketCAN,Multi-TT,HPM,网关,bus-off,波特率",
+      "install": "gh repo clone Roboparty/roboparty-skills, then copy skills/rp1-canfd-bus/ into the client skills dir (~/.claude/skills, ~/.codex/skills or ~/.cursor/skills)",
+      "url": "https://github.com/Roboparty/roboparty_EtherCANFD"
+    },
+    {
+      "name": "rp1-mechanism",
+      "category": "RP1 机械结构",
+      "description": "Understand RP1 mechanisms: upper/lower limb clamp mounts, ankle parallel linkage, hollow-shaft cable routing, and the hot-swap torso energy system.",
+      "triggers": "机械结构,抱箍,踝关节,并联连杆,中空走线,上肢,下肢,躯干",
+      "install": "gh repo clone Roboparty/roboparty-skills, then copy skills/rp1-mechanism/ into the client skills dir (~/.claude/skills, ~/.codex/skills or ~/.cursor/skills)"
+    },
+    {
+      "name": "rp1-main-controller",
+      "category": "RP1 嵌入式固件",
+      "description": "Use the RP1 heterogeneous main controller: RK3588 (NPU/LPDDR/eMMC) plus a 480MHz real-time MCU (USB-CANFD gateway), Armbian base, Linux 6.18 PREEMPT_RT.",
+      "triggers": "RK3588,实时MCU,异构,Armbian,PREEMPT_RT,主控,480MHz,内核",
+      "install": "gh repo clone Roboparty/roboparty-skills, then copy skills/rp1-main-controller/ into the client skills dir (~/.claude/skills, ~/.codex/skills or ~/.cursor/skills)"
+    },
+    {
+      "name": "rp1-bsp-firmware",
+      "category": "RP1 嵌入式固件",
+      "description": "Build RP1 plugin-style BSP: kernel patches decoupled as plugins, Debian .deb packages, image build, and OTA with rollback.",
+      "triggers": "BSP,插件化,.deb,镜像构建,OTA,内核补丁,驱动包,回滚",
+      "install": "gh repo clone Roboparty/roboparty-skills, then copy skills/rp1-bsp-firmware/ into the client skills dir (~/.claude/skills, ~/.codex/skills or ~/.cursor/skills)",
+      "url": "https://github.com/Roboparty/roboparty_build"
+    },
+    {
+      "name": "rp1-description",
+      "category": "RP1 模型部署",
+      "description": "Use RP1 robot description files: URDF (rp1 28dof / 24dof) and MJCF (robot, 24dof, flat/rough terrain) with meshes and terrain assets.",
+      "triggers": "URDF,MJCF,rp1_description,28dof,24dof,运动学,碰撞,网格,仿真模型",
+      "install": "gh repo clone Roboparty/roboparty-skills, then copy skills/rp1-description/ into the client skills dir (~/.claude/skills, ~/.codex/skills or ~/.cursor/skills)",
+      "url": "https://github.com/Roboparty/rp1_description"
+    },
+    {
+      "name": "rp1-deploy",
+      "category": "RP1 模型部署",
+      "description": "Deploy RP1 with the ROS2 Jazzy framework: modular imu/motor/dexhand/inference/camera packages; current target RoboPi2 (RK3588).",
+      "triggers": "部署,ROS2,Jazzy,Humble,imu,motor,dexhand,inference,camera,deploy",
+      "install": "gh repo clone Roboparty/roboparty-skills, then copy skills/rp1-deploy/ into the client skills dir (~/.claude/skills, ~/.codex/skills or ~/.cursor/skills)",
+      "url": "https://github.com/Roboparty/roboparty_deploy"
+    },
+    {
+      "name": "rp1-motor",
+      "category": "RP1 硬件电气",
+      "description": "Bring up and debug RP1 joint modules/motors (self-developed ROMOMO, Leisai, Daomiao): CAN-FD, MIT mode, over-current/under-voltage.",
+      "triggers": "关节模组,电机,ROMOMO,雷赛,达妙,MIT,过流,欠压,kp,kd",
+      "install": "gh repo clone Roboparty/roboparty-skills, then copy skills/rp1-motor/ into the client skills dir (~/.claude/skills, ~/.codex/skills or ~/.cursor/skills)",
+      "url": "https://github.com/Roboparty/roboparty_motors"
+    },
+    {
+      "name": "rp1-dexhand",
+      "category": "RP1 模型部署",
+      "description": "Use the RP_Hand 6DOF dexterous-hand driver: SocketCAN CAN-FD, dexhand_py/HandDriver, config tool; ROS2 Jazzy downstream.",
+      "triggers": "灵巧手,RP_Hand,6DOF,dexhand,HandDriver,手指,canfd",
+      "install": "gh repo clone Roboparty/roboparty-skills, then copy skills/rp1-dexhand/ into the client skills dir (~/.claude/skills, ~/.codex/skills or ~/.cursor/skills)",
+      "url": "https://github.com/Roboparty/roboparty_dexhand"
+    },
+    {
+      "name": "rp1-rl-training",
+      "category": "RP1 算法训练",
+      "description": "Train RP1 locomotion: IsaacSim + Isaac Lab + RSL-RL (versions per repo README), AMP/Parkour, MuJoCo Sim2Sim, policy export.",
+      "triggers": "强化学习,训练,IsaacLab,RSL-RL,Sim2Sim,AMP,Parkour,walk,run",
+      "install": "gh repo clone Roboparty/roboparty-skills, then copy skills/rp1-rl-training/ into the client skills dir (~/.claude/skills, ~/.codex/skills or ~/.cursor/skills)",
+      "url": "https://github.com/Roboparty/roboparty_train"
+    },
+    {
+      "name": "rp1-mimic-dance",
+      "category": "RP1 算法训练",
+      "description": "Use motion imitation / dance workflows: BeyondMimic and MimicLite motion tracking and retargeting.",
+      "triggers": "模仿学习,舞蹈,dance,BeyondMimic,MimicLite,动作追踪,retargeting,动捕",
+      "install": "gh repo clone Roboparty/roboparty-skills, then copy skills/rp1-mimic-dance/ into the client skills dir (~/.claude/skills, ~/.codex/skills or ~/.cursor/skills)",
+      "url": "https://github.com/Roboparty/MimicLite"
+    },
+    {
+      "name": "rp1-bfm",
+      "category": "RP1 算法训练",
+      "description": "Use RP1 behavior foundation models: UFO, P-BFM (perceptive), I-BFM (interactive), plus GMR/PredActor/ACoT-VLA references.",
+      "triggers": "行为基础模型,BFM,UFO,P-BFM,I-BFM,VLA,GMR,PredActor",
+      "install": "gh repo clone Roboparty/roboparty-skills, then copy skills/rp1-bfm/ into the client skills dir (~/.claude/skills, ~/.codex/skills or ~/.cursor/skills)",
+      "url": "https://github.com/Roboparty/UFO"
+    },
+    {
+      "name": "rp1-navigation",
+      "category": "RP1 模型部署",
+      "description": "Run RP1 navigation: localization, mapping, obstacle avoidance, with lidar/depth/IMU.",
+      "triggers": "导航,定位,建图,避障,nav,雷达,深度",
+      "install": "gh repo clone Roboparty/roboparty-skills, then copy skills/rp1-navigation/ into the client skills dir (~/.claude/skills, ~/.codex/skills or ~/.cursor/skills)",
+      "url": "https://github.com/Roboparty/roboparty_navigation"
+    },
+    {
+      "name": "rp1-joystick-teleop",
+      "category": "RP1 模型部署",
+      "description": "Operate RP1 by joystick/phone app or XR teleop: remote start/stop/e-stop, status screen, whole-body teleoperation.",
+      "triggers": "手柄,手机app,遥控器,遥操,XR,远程急停,teleop,joystick",
+      "install": "gh repo clone Roboparty/roboparty-skills, then copy skills/rp1-joystick-teleop/ into the client skills dir (~/.claude/skills, ~/.codex/skills or ~/.cursor/skills)",
+      "url": "https://github.com/Roboparty/roboparty_xr_teleop"
+    },
+    {
+      "name": "rp1-test",
+      "category": "RP1 测试开源",
+      "description": "Use RP1 test assets: test cases, bench architecture, electrical connection guide, host software, and test database.",
+      "triggers": "测试,测试用例,台架,上位机,测试数据库,MTBF,rp1_test",
+      "install": "gh repo clone Roboparty/roboparty-skills, then copy skills/rp1-test/ into the client skills dir (~/.claude/skills, ~/.codex/skills or ~/.cursor/skills)",
+      "url": "https://github.com/Roboparty/rp1_test"
+    },
+    {
+      "name": "rp1-hardware-open",
+      "category": "RP1 测试开源",
+      "description": "Use the RP1 hardware open-source package: 00_Docs, 01_Mechanic, 02_PCB, 03_Harness, 04_BOM, with model/drawing/BOM cross-checks.",
+      "triggers": "硬件开源,rp1_hardware,图纸,PCB,线束,BOM,模型,制造资料",
+      "install": "gh repo clone Roboparty/roboparty-skills, then copy skills/rp1-hardware-open/ into the client skills dir (~/.claude/skills, ~/.codex/skills or ~/.cursor/skills)"
+    },
+    {
+      "name": "rp1-safety",
+      "category": "RP1 总览",
+      "description": "Apply RP1 machine safety, electrical connection requirements (SAFETY.md), emergency stop, and safe commissioning.",
+      "triggers": "安全,接电要求,SAFETY,急停,安全调试,吊架,防摔,commissioning",
+      "install": "gh repo clone Roboparty/roboparty-skills, then copy skills/rp1-safety/ into the client skills dir (~/.claude/skills, ~/.codex/skills or ~/.cursor/skills)"
+    },
+    {
+      "name": "rp1-prd",
+      "category": "RP1 总览",
+      "description": "Reference the RP1.4 PRD V2.0: HMI, cognition/decision, ecosystem (teleop, joystick, OTA, API/SDK, open-source scope).",
+      "triggers": "PRD,产品需求,RP1.4,功能需求,HMI,生态,OTA,定义",
+      "install": "gh repo clone Roboparty/roboparty-skills, then copy skills/rp1-prd/ into the client skills dir (~/.claude/skills, ~/.codex/skills or ~/.cursor/skills)"
+    },
+    {
+      "name": "roboparty-docs",
+      "category": "文档检索",
+      "description": "Search official RoboParty docs and RP1 GitHub docs before answering.",
+      "triggers": "文档,手册,烧录,标定,CANFD,ROS2,SDK,部署,报错",
+      "install": "copy skills/roboparty-docs/ into the client skills dir",
+      "url": "https://roboparty.com/roboto_origin/doc"
+    },
+    {
+      "name": "article-writer",
+      "category": "文档写作",
+      "description": "Turn RoboParty debugging and deployment notes into publishable Chinese technical articles.",
+      "triggers": "写文章,技术文章,复盘,发布,公众号",
+      "install": "copy skills/article-writer/ into the client skills dir",
+      "url": "https://roboparty.com"
+    }
+  ]
+}

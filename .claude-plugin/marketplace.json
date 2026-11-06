@@ -1,0 +1,27 @@
+{
+  "name": "roboparty-skills",
+  "owner": {
+    "name": "RoboParty",
+    "url": "https://roboparty.com"
+  },
+  "plugins": [
+    {
+      "name": "roboparty-skills",
+      "source": "./plugins/roboparty-skills",
+      "description": "Open-source Agent Skills for RoboParty Roboto Origin (RPO) and RP1 humanoid robots: flashing, wiring, calibration, debugging, training and deployment.",
+      "category": "Robotics",
+      "version": "0.1.1",
+      "icon": "https://roboparty.com/favicon.ico",
+      "keywords": [
+        "roboparty",
+        "roboto-origin",
+        "rp1",
+        "humanoid",
+        "robotics",
+        "skills",
+        "open-source"
+      ]
+    }
+  ],
+  "license": "GPL-3.0-only"
+}

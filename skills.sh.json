@@ -1,0 +1,143 @@
+{
+  "name": "roboparty-skills",
+  "description": "Open-source RoboParty Agent Skills for Roboto Origin (RPO) and RP1 humanoid robots: safety, flashing, wiring, calibration, hardware, motion control, RL training, navigation, deployment and community.",
+  "version": "0.1.1",
+  "owner": "RoboParty",
+  "homepage": "https://github.com/Roboparty/roboparty-skills",
+  "docs": "https://roboparty.com/roboto_origin/doc",
+  "groups": [
+    {
+      "name": "入门指引",
+      "skills": [
+        "rpo-introduction"
+      ]
+    },
+    {
+      "name": "安全规范",
+      "skills": [
+        "rpo-safety-guide"
+      ]
+    },
+    {
+      "name": "烧录与固件",
+      "skills": [
+        "rpo-burn-flash",
+        "rpo-stm32-firmware"
+      ]
+    },
+    {
+      "name": "装配与标定",
+      "skills": [
+        "rpo-assembly",
+        "rpo-zero-calibration",
+        "rpo-wiring"
+      ]
+    },
+    {
+      "name": "硬件与电气",
+      "skills": [
+        "rpo-hardware-electrical",
+        "rpo-motor-debug",
+        "rpo-industrial-design",
+        "rpo-bom-parts"
+      ]
+    },
+    {
+      "name": "嵌入式软件",
+      "skills": [
+        "rpo-embedded-software"
+      ]
+    },
+    {
+      "name": "算法与软件",
+      "skills": [
+        "rpo-motion-control",
+        "rpo-rl-training",
+        "rpo-navigation"
+      ]
+    },
+    {
+      "name": "部署与SDK",
+      "skills": [
+        "rpo-deploy-sdk"
+      ]
+    },
+    {
+      "name": "开源与社区",
+      "skills": [
+        "rpo-community-contributing",
+        "rpo-license"
+      ]
+    },
+    {
+      "name": "服务与支持",
+      "skills": [
+        "rpo-qa",
+        "rpo-after-sales"
+      ]
+    },
+    {
+      "name": "RP1 总览",
+      "skills": [
+        "rp1-overview",
+        "rp1-safety",
+        "rp1-prd"
+      ]
+    },
+    {
+      "name": "RP1 硬件电气",
+      "skills": [
+        "rp1-hardware-architecture",
+        "rp1-electrical-power",
+        "rp1-canfd-bus",
+        "rp1-motor"
+      ]
+    },
+    {
+      "name": "RP1 机械结构",
+      "skills": [
+        "rp1-mechanism"
+      ]
+    },
+    {
+      "name": "RP1 嵌入式固件",
+      "skills": [
+        "rp1-main-controller",
+        "rp1-bsp-firmware"
+      ]
+    },
+    {
+      "name": "RP1 模型部署",
+      "skills": [
+        "rp1-description",
+        "rp1-deploy",
+        "rp1-dexhand",
+        "rp1-navigation",
+        "rp1-joystick-teleop"
+      ]
+    },
+    {
+      "name": "RP1 算法训练",
+      "skills": [
+        "rp1-rl-training",
+        "rp1-mimic-dance",
+        "rp1-bfm"
+      ]
+    },
+    {
+      "name": "RP1 测试开源",
+      "skills": [
+        "rp1-test",
+        "rp1-hardware-open"
+      ]
+    },
+    {
+      "name": "文档与写作",
+      "skills": [
+        "roboparty-docs",
+        "article-writer"
+      ]
+    }
+  ],
+  "license": "GPL-3.0-only"
+}

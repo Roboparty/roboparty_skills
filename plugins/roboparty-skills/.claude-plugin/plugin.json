@@ -1,0 +1,15 @@
+{
+  "name": "roboparty-skills",
+  "version": "0.1.1",
+  "description": "Open-source RoboParty Agent Skills for Roboto Origin (RPO) and RP1 humanoid robots.",
+  "author": "RoboParty",
+  "homepage": "https://github.com/Roboparty/roboparty-skills",
+  "repository": "https://github.com/Roboparty/roboparty-skills",
+  "keywords": [
+    "roboparty",
+    "roboto-origin",
+    "humanoid",
+    "robotics"
+  ],
+  "license": "GPL-3.0-only"
+}
