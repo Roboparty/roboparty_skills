@@ -26,11 +26,11 @@ metadata:
 
 1. 以《RP1 Tech Report v0.8.12》为权威骨架，标注「待验证」的参数不要写成已确认性能。
 2. 先讲产品定位与六层硬件架构，再展开电气、机械、嵌入式、算法各章。
-3. 具体参数以技术报告原文为准，先 search_docs 核对。
+3. 具体参数以技术报告原文为准，先 docs_search_docs 核对。
 
 ## 使用约定
 
-- 涉及版本号、型号、针脚、包名、API、参数时，先用 roboparty-docs MCP 的 `search_docs` / `get_page` 核对官方原文，**不要凭记忆编造**。
+- 涉及版本号、型号、针脚、包名、API、参数时，先用 roboparty-docs MCP 的 `docs_search_docs` / `docs_get_page` 核对官方原文，**不要凭记忆编造**。
 - 用原文内容回答，并附上权威来源链接。
 - 每个问题最多打开 1–2 篇文档。
 

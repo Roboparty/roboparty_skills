@@ -35,7 +35,7 @@ metadata:
 
 ## 使用约定
 
-- 涉及版本号、型号、针脚、包名、API、参数时，先用 roboparty-docs MCP 的 `search_docs` / `get_page` 核对官方原文，**不要凭记忆编造**。
+- 涉及版本号、型号、针脚、包名、API、参数时，先用 roboparty-docs MCP 的 `docs_search_docs` / `docs_get_page` 核对官方原文，**不要凭记忆编造**。
 - 用原文内容回答，并附上权威来源链接。
 - 每个问题最多打开 1–2 篇文档。
 
