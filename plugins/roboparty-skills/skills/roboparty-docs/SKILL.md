@@ -2,7 +2,7 @@
 name: roboparty-docs
 description: 规定 Agent 回答 RoboParty Roboto Origin（萝博头原型机）相关问题时，先用 roboparty-docs MCP 检索官方文档、再打开原文回答，并附可点击链接。触发：烧录、刷机、走线、标定、装配、电机、CANFD、ROS2、部署、SDK、训练、导航、报错、管脚、版本号。
 version: 0.1.0
-license: MIT
+license: GPL-3.0-only
 ---
 
 # RoboParty 文档检索用法

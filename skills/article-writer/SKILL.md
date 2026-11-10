@@ -2,7 +2,7 @@
 name: article-writer
 description: 把一段 RoboParty / Roboto Origin 相关工作（调试记录、部署流程、踩坑复盘）写成可发布的中文技术文章，产出 Markdown，并渲染成带配图的单文件 HTML 用于预览。
 version: 0.1.0
-license: MIT
+license: GPL-3.0-only
 ---
 
 # 技术文章写作
